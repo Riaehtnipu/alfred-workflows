@@ -33,6 +33,9 @@ if __name__ == '__main__':
     elif re.match(r"\d+-\d+-\d+ \d+:\d+:\d+", query):
         ts = time.mktime(time.strptime(query, '%Y-%m-%d %H:%M:%S'))
         getTime(int(ts))
+    elif re.match(r"\d+:\d+:\d+", query):
+        ts = time.mktime(time.strptime(query, '%H:%M:%S'))
+        getTime(int(ts))
     elif re.match(r"\d+-\d+-\d+", query):
         ts = time.mktime(time.strptime(query, '%Y-%m-%d'))
         getTime(int(ts))
@@ -41,3 +44,4 @@ if __name__ == '__main__':
         if ts > 253402185600:
             ts = ts/1000 
         getTime(ts)
+     

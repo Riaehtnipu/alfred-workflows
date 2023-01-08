@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string></string>
+	<string>xindoo.xyz</string>
+	<key>category</key>
+	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
-		<key>83C37CD7-E0F2-4B1B-AFE3-8766756102F2</key>
+		<key>B21D0E9C-5FF8-4134-9D87-7F8CBC1D0B99</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>78EC152E-37FC-497E-B8A1-3514FB4D6261</string>
+				<string>05E3C7F1-C014-47D9-BA23-92F01EDC0D56</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -21,13 +23,13 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string></string>
+	<string>xindoo</string>
 	<key>description</key>
-	<string></string>
+	<string>translate time and  timestamp</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>时间戳2</string>
+	<string>Timestamp</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -44,27 +46,27 @@
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
-				<integer>102</integer>
+				<integer>100</integer>
 				<key>keyword</key>
 				<string>ts</string>
 				<key>queuedelaycustom</key>
-				<integer>3</integer>
+				<integer>1</integer>
 				<key>queuedelayimmediatelyinitially</key>
-				<true/>
+				<false/>
 				<key>queuedelaymode</key>
 				<integer>0</integer>
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>正在转换中</string>
+				<string>正在转换中 …</string>
 				<key>script</key>
-				<string>/usr/bin/python timestamp.py {query}</string>
+				<string>python timestamp.py {query}</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>请输入时间戳或者yyyyMMdd</string>
+				<string>请输入时间、时间戳或者now</string>
 				<key>title</key>
 				<string>时间戳转换</string>
 				<key>type</key>
@@ -75,7 +77,7 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>83C37CD7-E0F2-4B1B-AFE3-8766756102F2</string>
+			<string>B21D0E9C-5FF8-4134-9D87-7F8CBC1D0B99</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -83,7 +85,7 @@
 			<key>config</key>
 			<dict>
 				<key>autopaste</key>
-				<false/>
+				<true/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
 				<key>ignoredynamicplaceholders</key>
@@ -94,7 +96,7 @@
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>78EC152E-37FC-497E-B8A1-3514FB4D6261</string>
+			<string>05E3C7F1-C014-47D9-BA23-92F01EDC0D56</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -103,22 +105,28 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>78EC152E-37FC-497E-B8A1-3514FB4D6261</key>
+		<key>05E3C7F1-C014-47D9-BA23-92F01EDC0D56</key>
 		<dict>
 			<key>xpos</key>
-			<integer>335</integer>
+			<real>520</real>
 			<key>ypos</key>
-			<integer>115</integer>
+			<real>190</real>
 		</dict>
-		<key>83C37CD7-E0F2-4B1B-AFE3-8766756102F2</key>
+		<key>B21D0E9C-5FF8-4134-9D87-7F8CBC1D0B99</key>
 		<dict>
 			<key>xpos</key>
-			<integer>75</integer>
+			<real>210</real>
 			<key>ypos</key>
-			<integer>115</integer>
+			<real>190</real>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.0.0</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>zxs.io</string>
 </dict>
 </plist>
